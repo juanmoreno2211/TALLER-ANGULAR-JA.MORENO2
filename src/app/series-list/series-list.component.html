@@ -1,7 +1,7 @@
 <div class="container mt-4">
     <h2>TV Series</h2>
     <div class="row">
-      <!-- Columna izquierda: Tabla -->
+      
       <div class="col-md-8">
         <table class="table table-striped">
           <thead>
@@ -24,7 +24,7 @@
         <p><strong>Seasons average:</strong> {{ getAverageSeasons() }}</p>
       </div>
   
-      <!-- Columna derecha: Detalle -->
+      
       <div class="col-md-4" *ngIf="selectedSerie">
         <div class="card">
           <img [src]="selectedSerie.poster" class="card-img-top" alt="{{ selectedSerie.name }}">
